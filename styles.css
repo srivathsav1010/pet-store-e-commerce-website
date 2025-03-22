@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    display: flex;
+    background-color: #c5aa6a;
+    width: 100%;
+    height: 80px;
+    padding-bottom: 10px;
+}
+body{
+    width: 100%;
+}
+.content{
+    
+    margin-left : 53%;
+    margin-top: 2%;
+    
+}
+.content ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:45px;
+    margin-top: -9px;
+
+}
+.content a{
+    color: black;
+    text-decoration: none;
+    border-radius: 3.125rem;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 5px rgba(243,223,193,1);
+}
+.logo{
+    height: 80px;
+    margin-left: 12px;
+    background-color: transparent;
+}
+.scroll{
+    background-color:	#ffec9e;
+    text-decoration: solid;
+}
+.carouselslide{
+    display: flex;
+    align-items: flex-end;
+   background-color: #ADDBE4;
+    height: 500px;
+    justify-content: center;
+}
+.quote{
+    width: 100%;
+    height: 300px;
+    background-color: #fbfbfb;
+    align-items: center;
+}
+.space
+{
+    height: 120px;
+}
+svg{
+    border: 1px solid rgb(192, 192, 192);
+    padding: 15px;
+    border-radius: 3.125rem;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.a{
+    padding: 3px;
+    border-radius: 15px;
+}
+.footer {
+    background-color: #c2c0c097;
+    padding: 40px 0;
+}
+
+.footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.footer form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #c5aa6a;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.footer form button img {
+    width: 20px;
+    height: 20px;
+}
+.foot{
+    font-size: medium;
+    margin: 50px;
+}
+.shopbanner{
+    height: 400px;
+    width: 100%;
+    background-color: #f8ede0;
+    display: flex;
+    align-items: center;
+}
+.shoptitle{
+    margin-left: 5%;
+    justify-content: center;
+    
+}
+.shoptitle h1{
+    font-family: chilanka,cursive;
+    font-size: 100px;
+    color: #000000;
+    margin: 16px 0px 0px;
+}
+.shoptitle a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: chilanka,cursive;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.categ h1{
+    font-size: 50px;
+    font-family: chilanka,cursive;
+    color: #000000;
+    margin: 16px 0px 0px;
+    padding-left: 5%;
+}
+.categ h1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.but{
+    margin-left: 60%;
+    padding: 10px;
+}
+
+.but button {
+    padding: 10px 20px; 
+    border-radius: 25rem;
+}
+.images{
+    border-radius: 25px;
+}
+.catego-order
+{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    padding-left: 100px;
+}
+.catego-order h1{
+    font-size: 50px;
+    font-family: chilanka,cursive;
+    color: #000000;
+    margin: 16px 0px 0px;
+    padding-left: 5%;
+}
+.contact-info {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.contact-info .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info .col-md-6 {
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.get-in-touch {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.get-in-touch h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.get-in-touch p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.get-in-touch form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-in-touch form input,
+.get-in-touch form textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.get-in-touch form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.col-md-6{
+    margin-left: 5%;
+}
